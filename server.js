@@ -4,7 +4,7 @@ const cors = require("cors");
 const Redis = require("ioredis");
 
 const app = express();
-const port = 5000;
+const port = 80;
 
 var os = require("os");
 var ip = require("ip");
